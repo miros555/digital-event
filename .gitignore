@@ -1,9 +1,7 @@
-
-
 # Ignore everything
 /*
 
-# But not these files...
+# But not these files
 !.gitignore
 !wp-content/themes/DigitalEvent/
 
