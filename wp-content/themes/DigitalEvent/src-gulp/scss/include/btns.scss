@@ -1,0 +1,107 @@
+@import 'vars.scss';
+/*================== bts ======================*/
+.btn{
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all .3s;
+  padding: 10px;
+  border-radius: 0;
+  height: 40px;
+  @media only screen and (min-width: 767px){
+    height: 50px;
+    padding: 15px;
+  }
+  @media only screen and (min-width: 991px){
+    height: 66px;
+    padding: 20px;
+  }
+	span{
+		transition: all .3s;
+    line-height: 1;
+    font-size: 14px;
+    line-height: 19px;
+    @media only screen and (min-width: 767px){
+      font-size: 16px;
+      line-height: 21px;
+    }
+    @media only screen and (min-width: 991px){
+      font-size: 20px;
+      line-height: 26px;
+    }
+	}
+
+
+  &--white{
+    background: #ffffff;
+    span{
+      color: $color-orange;
+      font-weight: bold;
+    }
+    &:hover{
+      background: #000;
+    }
+  }
+
+  &--orange{
+    background: $color-orange;
+    span{
+      color: #ffffff;
+      font-weight: bold;
+    }
+    &:hover{
+      background: #000;
+    }
+  }
+  &--red{
+    background: #EF0000;
+    span{
+      color: #ffffff;
+      font-weight: bold;
+    }
+    &:hover{
+      background: lighten(#EF0000, 15%);
+    }
+  }
+  &--orange-bord{
+    background: transparent;
+    border: 2px solid $color-orange;
+    span{
+      color: $color-orange;
+      font-weight: bold;
+    }
+    &:hover{
+      border-color: lighten($color-orange, 15%);
+      background: $color-orange;
+      span{
+        color: #fff;
+      }
+      .icon--play-orange{
+        background: url(../img/icons/play_arrow_white.svg) center/cover no-repeat;
+      }
+    }
+  }
+
+
+  &--wide{
+    width: 100%;
+  }
+  &--sb{
+    span{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  &--upper span{
+    text-transform: uppercase;
+  }
+  &:hover,
+	&:focus,
+	&:active{
+		outline: none;
+		box-shadow: none;
+	}
+}
+/*================== bts ======================*/

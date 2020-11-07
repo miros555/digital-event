@@ -1,0 +1,27 @@
+.icon{
+  width: 26px;
+  min-width: 26px;
+  height: 26px;
+  @media only screen and (min-width: 767px){
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+  }
+  @media only screen and (min-width: 991px){
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+  }
+  &--contact{
+    background: url('../img/icons/perm_contact_calendar-white.svg') center / cover no-repeat;
+  }
+  &--chat{
+    background: url('../img/icons/chat-white.svg') center / cover no-repeat;
+  }
+  &--play-orange{
+    background: url('../img/icons/play_arrow_orange.svg') center / cover no-repeat;
+  }
+  &--3d{
+    background: url('../img/icons/3d_rotation_white.svg') center / cover no-repeat;
+  }
+}
