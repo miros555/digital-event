@@ -5,5 +5,5 @@
 
 # But not these files...
 !.gitignore
-!wp-content/themes/*
+!wp-content/themes/DigitalEvent/
 
