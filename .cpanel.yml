@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/miro/digital-events.vipteh.site/
+    - /bin/cp -R wp-content/themes/DigitalEvent $DEPLOYPATH
