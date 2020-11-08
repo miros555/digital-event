@@ -66,7 +66,7 @@
                 <span class="header-menu-row__icon event">
                   <span class="header-menu-row__counter"><?php echo $count; ?></span>
                 </span>
-                <span class="header-menu-row__text">Meine Events Test</span>
+                <span class="header-menu-row__text">Meine Events</span>
               </a>
               <a href="#" data-toggle="modal" data-target="#myModalMyGeschenk" class="header-menu-row__item">
                 <span class="header-menu-row__icon">
