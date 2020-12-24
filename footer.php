@@ -49,7 +49,7 @@
       <div class="book-appoin__close"></div>
       <div class="book-appoin__avatar"><img src="<?= get_stylesheet_directory_uri(); ?>/src/img/chat-btn.jpg" alt=""></div>
       <div class="book-appoin__name">Erika Mustermann</div>
-      <div class="book-appoin__title">Messehostess 777777ggg</div>
+      <div class="book-appoin__title">Messehostess</div>
       <div class="book-appoin__text">Haben Sie Fragen zum Produkt? Ich stehe Ihnen gerne zur Verfügung. Vereinbaren Sie jetzt ein persönliches Gespräch.</div>
       <button class="btn btn--orange btn--upper btn--sb"><span>Termin buchen <i class="icon icon--contact"></i></span></button>
     </div>
