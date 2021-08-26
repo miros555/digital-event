@@ -1,5 +1,5 @@
     <div class="footer footer--nav-fixed">
-      <div class="container">
+      <div class="container test">
         <div class="footer__wrap row">
           <div class="col-md-6">
             <?php wp_nav_menu( array(
