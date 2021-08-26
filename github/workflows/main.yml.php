@@ -12,7 +12,7 @@ uses: actions/checkout@v2
 uses: SamKirkland/FTP-Deploy-Action@4.0.0
 with:
 server: fabrik.top
-server-dir: /home/miro/digital-event
+server-dir: /digital-event
 port: 21
 protocol: ftp
 username: miro
